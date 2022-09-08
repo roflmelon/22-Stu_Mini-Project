@@ -12,9 +12,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 16px;
 }
 img {
-  height: 100%;
+  height: 80%;
   margin: 15px;
 }
 
@@ -25,4 +26,45 @@ li {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  height: 10%;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.intro {
+  display: block;
+}
+
+.intro > h1 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+.chad {
+  margin: auto;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  margin: 10px;
 }
